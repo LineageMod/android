@@ -11,6 +11,7 @@
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
   <!-- mod repo -->
 
@@ -31,10 +32,11 @@
   <!-- Xiaomi Redmi Note5/5pro -->
     <project name="lineagemod/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-16.0" />
   <project name="lineagemod/android_kernel_xiaomi_whyred" path="kernel/xiaomi/whyred" remote="github" revision="lineage-16.0" />
-  <!-- <project name="SubhrajyotiSen/vendor_xiaomi" path="device/xiaomi" remote="github" revision="lineage-16.0" /> -->
+  <project name="SubhrajyotiSen/vendor_xiaomi" path="device/xiaomi" remote="github" revision="lineage-16.0" />
   <project name="lineagemod/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="pie-whyred" />
   
   
+  <project name="lineagemod/platform_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="pie" />
   <project name="lineagemod/android_packages_apps_WeatherClient" path="packages/apps/WeatherClient" remote="github" revision="lineage-16.0" />
     <project name="lineagemod/android_packages_overlays_Lineage" path="packages/apps/overlays/Lineage" remote="github" revision="lineage-16.0" />
   <!-- //  <project path="vendor/xiaomi/Gcam" // -->
