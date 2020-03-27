@@ -12,7 +12,7 @@
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-
+  <remove-project name="platform/external/libunwind" />
   <!-- mod repo -->
 
   <project name="lineagemod/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0" />
